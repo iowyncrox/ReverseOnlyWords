@@ -2,7 +2,7 @@ public class ReverseOnlyWords {
 
 	public static String reverse(String str) {
 
-		if (str == null || str.length() == 0) {
+		if (str == null || str.length() <= 1) {
 			return "";
 		}
 
